@@ -45,8 +45,12 @@
 
   form {
     padding: 20px;
+    padding-top: 80px;
   }
 
+  .voltar{
+    margin-top: 70px !important;
+  }
   .name {
     background: rgb(203, 247, 195);
     color: rgb(77, 0, 77);
@@ -57,7 +61,7 @@
   
  
   .link {
-    align-items: right !important;
+    /* align-items: right !important; */
     text-decoration: none;
     background-color: rgba(77, 0, 77, 0.5);
     padding: 13px;

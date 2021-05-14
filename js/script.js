@@ -7,7 +7,8 @@ const rateEl = document.getElementById("rate");
 const swap = document.getElementById("swap");
 
 const button = document.getElementById("send");
-var rate = (amountEl_two.value * 1.1);
+const name = document.getElementById("name");
+const rate = (amountEl_two.value * 1.1);
 
 
 // Fetch exchange rates and update the DOM
@@ -30,7 +31,8 @@ function calculate() {
 // alert values
 function send() {
   alert(
-    "valor a ser convertido: " + amountEl_one.value +
+    "nome: " + name.value +
+    "\n\nvalor a ser convertido: " + amountEl_one.value +
     "\nValor de taxa: " + rate.toFixed(2) +
     "\nValor após conversão: " + (amountEl_two.value));  
   }
