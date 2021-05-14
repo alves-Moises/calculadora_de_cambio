@@ -16,6 +16,18 @@
     margin: 0;
     padding: 20px;
   }
+
+  button {
+    background-color: rgba(77, 0, 77, 0.5);
+    border-color: rgba(34, 0, 34, 0.5);
+    border-style: solid;
+    color:#dadada;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   
   h1 {
     color: #3a3a3a;
@@ -24,20 +36,31 @@
   p {
     text-align: center;
   }
-  header{
-    text-align: left;
-  }
+  
   
   a {
     margin-top: 30px;
     /* margin-left: 230px; */
   }
+
+  form {
+    padding: 20px;
+  }
+
+  .name {
+    background: rgb(203, 247, 195);
+    color: rgb(77, 0, 77);
+    border-radius: 8px;
+    border-color: rgb(77, 0, 77);
+
+  }
   
+ 
   .link {
     align-items: right !important;
     text-decoration: none;
     background-color: rgba(77, 0, 77, 0.5);
-    padding: 12px;
+    padding: 13px;
     border-radius: 27px;
     color: #eee;
   }
@@ -89,6 +112,10 @@
     color: var(--primary-color);
     font-size: 14px;
     padding: 0 10px;
+  }
+
+  .center {
+    align-items: center;
   }
   
   select:focus,

@@ -8,17 +8,45 @@
   <title>Formulário</title>
 </head> 
 <body>
-  <div class="conteiner">
-    <div class="row">
-      <div class="col-8">
-        <h1>Formulário</h1>
-      </div>
-    </div>
-  </div>
-  
   <div>
-    <a href="index.html" class="link" style="text-align: left;">< Início </a>
+    <a href="index.html" class="link">< Início </a>
   </div>
+  <h1>Formulário</h1>
+  <p>Escolha a moeda e os valores para obter a taxa de câmbio</p>
+  
+  <form action="result.html">
+    <input class="name" type="text" id="name" placeholder="Nome">
+
+    <!-- primeiro item -->
+    <div class="currency">
+      <select id="currency-one">
+          <option value="BRL">BRL</option>
+          <option value="EUR">EUR</option>
+          <option value="INR" selected>INR</option>
+          <option value="USD">USD</option>
+      </select>
+      <input type="number" id="amount-one" value="1" />
+    </div>
+
+    <div class="swap-rate-container">
+      <button class="btn" id="swap">Trocar</button>
+      <div class="rate" id="rate"></div>
+    </div>
+
+      <!-- Segundo item -->
+    <div class="currency">
+      <select id="currency-two">
+        <option value="BRL">BRL</option>
+        <option value="EUR">EUR</option>
+        <option value="INR" selected>INR</option>
+        <option value="USD">USD</option>
+      </select>
+      <input type="number" id="amount-two" placeholder="0" disabled />
+    </div>
+
+    <button id="send">Enviar</button>
+  </form>
+    
   <script src="js/script.js"></script>
 </body>
 </html>

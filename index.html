@@ -10,38 +10,37 @@
 </head>
 
 <body>
-  section.
-    <h1>Calculadora de Câmbio</h1>
-    <p>Escolha a moeda e os valores para obter a taxa de câmbio</p>
+  <h1>Calculadora de Câmbio</h1>
+  <p>Escolha a moeda e os valores para obter a taxa de câmbio</p>
   
     <!-- primeiro item -->
-    <div class="container">
-      <div class="currency">
-        <select id="currency-one">
-            <option value="BRL">BRL</option>
-            <option value="EUR">EUR</option>
-            <option value="INR" selected>INR</option>
-            <option value="USD">USD</option>
-        </select>
-        <input type="number" id="amount-one" placeholder="0" value="1" />
-      </div>
-
-      <div class="swap-rate-container">
-        <button class="btn" id="swap">Trocar</button>
-        <div class="rate" id="rate"></div>
-      </div>
-
-      <!-- Segundo item -->
-      <div class="currency">
-        <select id="currency-two">
+  <div class="container">
+    <div class="currency">
+      <select id="currency-one">
           <option value="BRL">BRL</option>
           <option value="EUR">EUR</option>
           <option value="INR" selected>INR</option>
           <option value="USD">USD</option>
-        </select>
-        <input type="number" id="amount-two" placeholder="0" disabled />
-      </div>
+      </select>
+      <input type="number" id="amount-one" placeholder="0" value="1" />
     </div>
+
+    <div class="swap-rate-container">
+      <button class="btn" id="swap">Trocar</button>
+      <div class="rate" id="rate"></div>
+    </div>
+
+    <!-- Segundo item -->
+    <div class="currency">
+      <select id="currency-two">
+        <option value="BRL">BRL</option>
+        <option value="EUR">EUR</option>
+        <option value="INR" selected>INR</option>
+        <option value="USD">USD</option>
+      </select>
+      <input type="number" id="amount-two" placeholder="0" disabled />
+    </div>
+  </div>
   <a href="formulario.html" class="link" style="text-align: left;">Formulário > </a>
     
   <script src="js/script.js"></script>
