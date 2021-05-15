@@ -40,7 +40,6 @@
   
   a {
     margin-top: 30px;
-    /* margin-left: 230px; */
   }
 
   form {
@@ -48,15 +47,12 @@
     padding-top: 80px;
   }
 
-  .voltar{
-    margin-top: 70px !important;
-  }
+  
   .name {
     background: rgb(203, 247, 195);
     color: rgb(77, 0, 77);
     border-radius: 8px;
     border-color: rgb(77, 0, 77);
-
   }
   
  
@@ -67,6 +63,19 @@
     padding: 13px;
     border-radius: 27px;
     color: #eee;
+  }
+
+  .send {
+    text-decoration: none;
+    background-color: rgba(77, 0, 77, 0.5);
+    padding: 13px;
+    border-radius: 5px;
+    color: #eee;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-style: solid;
+    border-color: rgba(54, 0, 54, 0.705);
+    border-width: 4px;
   }
   
   .btn {
